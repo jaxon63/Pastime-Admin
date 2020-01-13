@@ -1,0 +1,129 @@
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+
+
+
+}
+
+h2 {
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+.banner{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#logo{
+	height: 100px;
+	width: 100px;
+
+	float: left;
+
+}
+
+#links{
+	text-align: center;
+	list-style-type: none;
+
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+
+.link {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.link:hover {
+	background-color: #999;
+}
+
+
+body {
+	margin: auto;
+	max-width: 1000px;
+	background-color: #fcfffc;
+}
+
+html{
+	background-color: #050;
+}
+
+.form{
+	padding: 10px;
+	
+
+}
+
+
+label {
+	margin-top: 10px;
+	text-align: right;
+	float: left;
+	width: 25%;
+}
+
+input, textarea {
+	margin-top: 10px;
+	width: 30%;
+	margin-left: 10px;
+}
+
+#Equipment {
+	vertical-align: middle;
+}
+
+#textareaHelp {
+	display: inline;
+}
+
+input[type = "submit"] {
+	background-color: #ccc;
+	width: auto;
+	height: 30px;
+	/*margin-left: 45%;
+	margin-right: 45%;*/
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+th{
+	height: 50px;
+	background-color: #ccc;
+}
+
+td{
+	text-align: center;
+	vertical-align: middle;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+#forgotPassword {
+	text-align: center;
+}
